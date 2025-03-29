@@ -39,10 +39,12 @@ body {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
+    position: absolute;
+    top: 10px; /* Margen desde arriba */
+    left: 10px; /* Margen desde la izquierda */
+    width: 80px; /* Tamaño pequeño del logo */
+    height: auto; /* Mantener proporción */
+    z-index: 1000; /* Asegurar que esté por encima de otros elementos */
 }
 
 /* ==== MENU RESPONSIVO ==== */
