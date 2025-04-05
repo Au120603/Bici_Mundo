@@ -55,3 +55,4 @@ formulario.addEventListener('submit', function(event) {
     alert('Formulario enviado correctamente');
     return true;  
 });
+
