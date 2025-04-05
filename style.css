@@ -34,6 +34,17 @@ body {
     z-index: 1000;
 }
 
+#logo {
+    width: 120px;
+    height: auto;
+    display: block;
+}
+
+.navbar img#logo {
+    width: 100px;
+    margin-right: auto;
+}
+
 .navbar {
     background: linear-gradient(to right, #e6b800, #e29312);
     width: 100%;
